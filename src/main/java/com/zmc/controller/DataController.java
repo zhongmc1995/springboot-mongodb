@@ -20,7 +20,6 @@ import java.util.List;
 public class DataController {
     @Autowired
     PersonRepository personRepository;
-
     @RequestMapping(value = "/save",method = RequestMethod.GET)
     public Person save(){
         Person p = new Person("zmc",23);
